@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="pyxel.xsl"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:pyxel="http://pyxel.org/2008/ns/"
+         xmlns="http://pyxel.org/2008/ns/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Datos sobre los resultados -->
+    <results>
+        <pyxel>
+            <version>1.0</version>
+            <tagline>Archivos de imágenes de Pyxel.org</tagline>
+            <url>http://pyxel.org/</url>
+        </pyxel>
+
+        <query type="xsd:string">the query</query>
+        <start type="xsd:integer">4</start>
+        <end type="xsd:integer">7</end>
+        <previous type="xsd:integer">0</previous>
+        <next type="xsd:integer">8</next>
+        <total type="xsd:integer">10</total>
+    </results>
+
+    <images>
+        <image rdf:about="http://pyxel.org/image/0">
+            <metadata>
+                <!-- TODO: IPTC -->
+            </metadata>
+            <profiles>
+                <profile name="urn:pyxel::pyxel.profiles.web">
+                    <link>http://pyxel.org/image/0/web</link>
+                    <size>10929</size> <!-- in bytes, how to specify? -->
+                    <metadata rdf:about="http://pyxel.org/image/0/web">
+                        <!-- TODO: IPTC metadata sobre el profile -->
+                    </metadata>
+                </profile>
+
+                <profile name="urn:pyxel::pyxel.profiles.identity">
+                    <link>http://pyxel.org/image/0/identity</link>
+                    <size>3929878</size>
+                    <metadata rdf:about="http://pyxel.org/image/0/identity">
+                        <!-- TODO: IPTC metadata sobre el profile -->
+                    </metadata>
+                </profile>
+
+                <profile name="urn:pyxel::pyxel.profiles.thumbnail">
+                    <link>http://pyxel.org/image/0/thumbnail</link>
+                    <size>8929</size>
+                    <metadata rdf:about="http://pyxel.org/image/0/thumbnail">
+                        <!-- TODO: IPTC metadata sobre el profile -->
+                    </metadata>
+                </profile>
+
+                <profile name="urn:pyxel::pyxel.profiles.watermark">
+                    <link>http://pyxel.org/image/0/watermark</link>
+                    <size>3929878</size>
+                    <metadata rdf:about="http://pyxel.org/image/0/watermark">
+                        <!-- TODO: IPTC metadata sobre el profile -->
+                    </metadata>
+                </profile>
+            </profiles>
+        </image>
+    </images>
+</rdf:RDF>
+
